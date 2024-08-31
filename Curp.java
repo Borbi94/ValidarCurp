@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class Curp{
     public static void main(String[] args) {
-        String archivo = "C:\\Users\\Franc\\Unison\\CURPS.txt";
+        String archivo = "C:\\Users\\Franc\\Unison\\curps.txt";
 
         String regex = "^[A-Z]{1}[AEIOU]{1}[A-Z]{2}[0-9]{2}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])[HM]{1}(AS|BC|BS|CC|CL|CM|CS|CH|DF|DG|GT|GR|HG|JC|MC|MN|MS|NT|NL|OC|PL|QT|QR|SP|SL|SR|TC|TS|TL|VZ|YN|ZS|NE)[B-DF-HJ-NP-TV-Z]{3}[0-9A-Z]{1}[0-9]{1}$";
 
